@@ -14,7 +14,6 @@ nav{
     color: white;
     text-decoration: none;
     font-size: 20px;
-    line-height: 40px;
 }
 
 a:visited{color: white}
@@ -25,6 +24,8 @@ a:visited{color: white}
 
 }
 
+
+
 main{
     margin-left: 280px;
     padding: 0px 40px 40px 40px;
@@ -33,15 +34,17 @@ main{
 
 .maintitle{
     padding: 15px 15px 15px 0px;
-    position:sticky;
+    
     top:0;
     background-color: white;
 }
 
 h1{
     font-size: 40px;
-    font-family: "Roboto", serif;
+    font-family: "Roboto Condensed", serif;
     text-transform: uppercase;
+    
+    
 }
 
 h2{
@@ -53,9 +56,10 @@ body{
 }
 
 h3{
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 1000;
     padding: 15px 15px 15px 0px;
+    
 }
 
 h4{
@@ -68,6 +72,96 @@ p{
     padding: 15px 15px 15px 0px;
 }
 
-div.goals ul{
-    list-style-type: style inside;;
+.sideside{
+    display: flex;
+    margin: 0px 0px 30px 0px;
+    align-items: center;
 }
+
+
+
+img{
+    width: 90px;
+}
+
+.sideside p{
+    margin-left: 20px;
+}
+
+.goals li{
+    list-style: disc;
+    margin-left: 20px;
+}
+
+
+.sideside .goals li{
+    margin-left: 40px;
+}
+
+
+
+.social_media_pics img{
+    margin-right: 10px;
+}
+
+.collapsible {
+    background-color: #02244e;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 20px;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .collapsible:hover {
+    background-color: #02244e;
+  }
+  
+  /* Style the collapsible content. Note: hidden by default */
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
+
+  .collapsible:after {
+    font-size: 30px;
+    content: "\002B"; /* Unicode character for "plus" sign (+) */
+    color: white;
+    float: right;
+    margin-left: 5px;
+    font-family: "Roboto";
+    vertical-align: middle;
+  }
+  
+  .active:after {
+    font-size: 30px;
+    font-family: "Roboto";
+    vertical-align: middle;
+    content: "\2212"; /* Unicode character for "minus" sign (-) */
+  }
+
+  .tops{
+    font-family: "Roboto", serif;
+    background-color: #02244e;
+    color: white;
+    text-align: center;
+    padding: 14px 40px;
+    font-size: 20px;
+  }
+
+  .backtop{
+      text-align: center;
+      position: fixed;
+    left: 0;
+    width: 275px;
+    padding: 20px;
+    margin: 20px;
+    top:450px
+  }
+
