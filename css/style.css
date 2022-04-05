@@ -16,7 +16,16 @@ nav{
     font-size: 20px;
 }
 
-a:visited{color: white}
+a:visited{color: #0d57aa}
+
+a:hover{
+    text-decoration: none;
+    color:#72b4ff ;
+}
+
+.tops:visited{color: white}
+
+.nav_item a:visited{color: white}
 .nav_item a:hover{
     background-color: #f9cb33;
     color: #02244e;
@@ -165,3 +174,6 @@ img{
     top:450px
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
